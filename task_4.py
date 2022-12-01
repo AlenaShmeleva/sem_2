@@ -8,4 +8,7 @@ num_list = []
 for i in range(-N, N + 1):
     num_list.append(i)
 print(num_list)
-print("Произведение элементов: ", num_list[a1-1]*num_list[a2-1])
+if a1 > len(num_list) or a2 > len(num_list):
+    print("Указанного элемента не существует")
+else:
+    print("Произведение элементов: ", num_list[a1-1]*num_list[a2-1])
