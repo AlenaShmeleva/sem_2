@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from logg import logging
 
-app = ApplicationBuilder().token("5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss").build()
+app = ApplicationBuilder().token("").build()
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.info(f"start {update.effective_user.first_name}")
