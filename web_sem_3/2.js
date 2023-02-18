@@ -1,5 +1,5 @@
 function greeting(name) {
-console.log(`Доброго времени суток, ${name}!`);
+    console.log(`Доброго времени суток, ${name}!`);
 }
-    const username = prompt("Введите своё имя");
+const username = prompt("Введите своё имя");
 greeting(username);
