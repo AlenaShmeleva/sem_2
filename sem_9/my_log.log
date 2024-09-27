@@ -1,0 +1,360 @@
+07-01-2023 16:54:09 - proactor_events - DEBUG - __init__ - Using proactor: IocpProactor
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - Entering: get_me
+07-01-2023 16:54:09 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getMe "HTTP/1.1 200 OK"
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - User(can_join_groups=True, can_read_all_group_messages=False, first_name='calc_bot', id=5791856739, is_bot=True, supports_inline_queries=False, username='airu_calc_bot')
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - Exiting: get_me
+07-01-2023 16:54:09 - _bot - DEBUG - initialize - This Bot is already initialized.
+07-01-2023 16:54:09 - _updater - DEBUG - _start_polling - Updater started (polling)
+07-01-2023 16:54:09 - _updater - DEBUG - _network_loop_retry - Start network loop retry bootstrap del webhook
+07-01-2023 16:54:09 - _updater - DEBUG - bootstrap_del_webhook - Deleting webhook
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - Entering: delete_webhook
+07-01-2023 16:54:09 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/deleteWebhook "HTTP/1.1 200 OK"
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - True
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - Exiting: delete_webhook
+07-01-2023 16:54:09 - _updater - DEBUG - _start_polling - Bootstrap done
+07-01-2023 16:54:09 - _updater - DEBUG - start_polling - Waiting for polling to start
+07-01-2023 16:54:09 - _updater - DEBUG - start_polling - Polling updates from Telegram started
+07-01-2023 16:54:09 - _updater - DEBUG - _network_loop_retry - Start network loop retry getting Updates
+07-01-2023 16:54:09 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:09 - _application - INFO - start - Application started
+07-01-2023 16:54:17 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:54:17 - _bot - DEBUG - get_updates - Getting updates: [327644400]
+07-01-2023 16:54:17 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 18, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=92, supergroup_chat_created=False, text='/start'), update_id=327644400),)
+07-01-2023 16:54:17 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:54:17 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:17 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 18, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=92, supergroup_chat_created=False, text='/start'), update_id=327644400)
+07-01-2023 16:54:17 - bot_use - INFO - start - start Алёна
+07-01-2023 16:54:17 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:54:17 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:54:17 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 19, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=50, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=80, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=93, supergroup_chat_created=False, text='Привет, Алёна! Я твой мини-калькулятор.\n Выбери:\n /help - для получения помощи.\n/calc - для начала работы с калькулятором.')
+07-01-2023 16:54:17 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:54:25 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:54:25 - _bot - DEBUG - get_updates - Getting updates: [327644401]
+07-01-2023 16:54:25 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 26, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=94, supergroup_chat_created=False, text='/help'), update_id=327644401),)
+07-01-2023 16:54:25 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:54:25 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:25 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 26, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=94, supergroup_chat_created=False, text='/help'), update_id=327644401)
+07-01-2023 16:54:25 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:54:25 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:54:25 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 27, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=177, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=218, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=95, supergroup_chat_created=False, text='Я - маленький калькулятор,\n     который поможет вам выполнять простые действия между двумя числами.\n     Пожалуйста, следуйте инструкции и у вас обязательно всё получится.\n     /start - для выхода в главное меню,\n     /calc - запуск калькулятора')
+07-01-2023 16:54:25 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:54:32 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:54:32 - _bot - DEBUG - get_updates - Getting updates: [327644402]
+07-01-2023 16:54:32 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 33, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=96, supergroup_chat_created=False, text='/calc'), update_id=327644402),)
+07-01-2023 16:54:32 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:54:32 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:32 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 33, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=96, supergroup_chat_created=False, text='/calc'), update_id=327644402)
+07-01-2023 16:54:32 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:54:32 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:54:32 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 33, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=40, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=110, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=125, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=6, offset=146, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=169, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=200, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=234, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=265, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=97, supergroup_chat_created=False, text='Какое действие вы хотите выполнить?\n    /sum - сложение (введите команду и два числа через пробел. Например: "/sum 3 56"\n    /sub - вычитание\n    /multi - умножение\n    /div1 - деление с остатком\n    /div2 - целочисленное деление\n    /div3 - остаток от деления\n    /pow - возведение в степень')
+07-01-2023 16:54:32 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:54:40 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:54:40 - _bot - DEBUG - get_updates - Getting updates: [327644403]
+07-01-2023 16:54:40 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 41, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=98, supergroup_chat_created=False, text='/sum 3 56'), update_id=327644403),)
+07-01-2023 16:54:40 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:54:40 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:40 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 41, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=98, supergroup_chat_created=False, text='/sum 3 56'), update_id=327644403)
+07-01-2023 16:54:40 - bot_use - INFO - menu - 3 + 56 = 59
+07-01-2023 16:54:40 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:54:40 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:54:40 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 41, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=99, supergroup_chat_created=False, text='3 + 56 = 59')
+07-01-2023 16:54:40 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:54:50 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:54:50 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:54:50 - _bot - DEBUG - decorator - ()
+07-01-2023 16:54:50 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:54:50 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:50 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:54:50 - _bot - DEBUG - get_updates - Getting updates: [327644404]
+07-01-2023 16:54:50 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 52, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=100, supergroup_chat_created=False, text='/sum 3.5 56'), update_id=327644404),)
+07-01-2023 16:54:50 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:54:50 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:54:50 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 54, 52, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=100, supergroup_chat_created=False, text='/sum 3.5 56'), update_id=327644404)
+07-01-2023 16:54:50 - _application - ERROR - process_error - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\bot\bot_use.py", line 36, in menu
+    x = int(items[1])
+        ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.5'
+07-01-2023 16:55:00 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:00 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:55:00 - _bot - DEBUG - decorator - ()
+07-01-2023 16:55:00 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:00 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:04 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:04 - _bot - DEBUG - get_updates - Getting updates: [327644405]
+07-01-2023 16:55:04 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 5, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=101, supergroup_chat_created=False, text='/start'), update_id=327644405),)
+07-01-2023 16:55:04 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:04 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:04 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 5, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=101, supergroup_chat_created=False, text='/start'), update_id=327644405)
+07-01-2023 16:55:04 - bot_use - INFO - start - start Никита
+07-01-2023 16:55:04 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:55:04 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:55:04 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 5, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=51, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=81, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=102, supergroup_chat_created=False, text='Привет, Никита! Я твой мини-калькулятор.\n Выбери:\n /help - для получения помощи.\n/calc - для начала работы с калькулятором.')
+07-01-2023 16:55:04 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:55:09 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:09 - _bot - DEBUG - get_updates - Getting updates: [327644406]
+07-01-2023 16:55:09 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 11, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=103, supergroup_chat_created=False, text='/calc'), update_id=327644406),)
+07-01-2023 16:55:09 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:09 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:09 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 11, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=103, supergroup_chat_created=False, text='/calc'), update_id=327644406)
+07-01-2023 16:55:09 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:55:09 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:55:09 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 11, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=40, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=110, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=125, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=6, offset=146, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=169, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=200, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=234, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=265, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=104, supergroup_chat_created=False, text='Какое действие вы хотите выполнить?\n    /sum - сложение (введите команду и два числа через пробел. Например: "/sum 3 56"\n    /sub - вычитание\n    /multi - умножение\n    /div1 - деление с остатком\n    /div2 - целочисленное деление\n    /div3 - остаток от деления\n    /pow - возведение в степень')
+07-01-2023 16:55:09 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:55:19 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:19 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:55:19 - _bot - DEBUG - decorator - ()
+07-01-2023 16:55:19 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:19 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:28 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:28 - _bot - DEBUG - get_updates - Getting updates: [327644407]
+07-01-2023 16:55:28 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 29, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=105, supergroup_chat_created=False, text='/sum'), update_id=327644407),)
+07-01-2023 16:55:28 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:28 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:28 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 29, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=105, supergroup_chat_created=False, text='/sum'), update_id=327644407)
+07-01-2023 16:55:28 - _application - ERROR - process_error - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\bot\bot_use.py", line 36, in menu
+    x = int(items[1])
+            ~~~~~^^^
+IndexError: list index out of range
+07-01-2023 16:55:34 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:34 - _bot - DEBUG - get_updates - Getting updates: [327644408]
+07-01-2023 16:55:34 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 36, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=106, supergroup_chat_created=False, text='4 5'), update_id=327644408),)
+07-01-2023 16:55:34 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:34 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:34 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 55, 36, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=106, supergroup_chat_created=False, text='4 5'), update_id=327644408)
+07-01-2023 16:55:44 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:44 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:55:44 - _bot - DEBUG - decorator - ()
+07-01-2023 16:55:44 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:44 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:55:54 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:55:54 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:55:54 - _bot - DEBUG - decorator - ()
+07-01-2023 16:55:54 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:55:54 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:56:10 - proactor_events - DEBUG - __init__ - Using proactor: IocpProactor
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - Entering: get_me
+07-01-2023 16:56:10 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getMe "HTTP/1.1 200 OK"
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - User(can_join_groups=True, can_read_all_group_messages=False, first_name='calc_bot', id=5791856739, is_bot=True, supports_inline_queries=False, username='airu_calc_bot')
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - Exiting: get_me
+07-01-2023 16:56:10 - _bot - DEBUG - initialize - This Bot is already initialized.
+07-01-2023 16:56:10 - _updater - DEBUG - _start_polling - Updater started (polling)
+07-01-2023 16:56:10 - _updater - DEBUG - _network_loop_retry - Start network loop retry bootstrap del webhook
+07-01-2023 16:56:10 - _updater - DEBUG - bootstrap_del_webhook - Deleting webhook
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - Entering: delete_webhook
+07-01-2023 16:56:10 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/deleteWebhook "HTTP/1.1 200 OK"
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - True
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - Exiting: delete_webhook
+07-01-2023 16:56:10 - _updater - DEBUG - _start_polling - Bootstrap done
+07-01-2023 16:56:10 - _updater - DEBUG - start_polling - Waiting for polling to start
+07-01-2023 16:56:10 - _updater - DEBUG - start_polling - Polling updates from Telegram started
+07-01-2023 16:56:10 - _updater - DEBUG - _network_loop_retry - Start network loop retry getting Updates
+07-01-2023 16:56:10 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:56:10 - _application - INFO - start - Application started
+07-01-2023 16:56:21 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:56:21 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:56:21 - _bot - DEBUG - decorator - ()
+07-01-2023 16:56:21 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:56:21 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:56:31 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:56:31 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:56:31 - _bot - DEBUG - decorator - ()
+07-01-2023 16:56:31 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:56:31 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:56:41 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:56:41 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:56:41 - _bot - DEBUG - decorator - ()
+07-01-2023 16:56:41 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:56:41 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:56:51 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:56:51 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:56:51 - _bot - DEBUG - decorator - ()
+07-01-2023 16:56:51 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:56:51 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:01 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:01 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:57:01 - _bot - DEBUG - decorator - ()
+07-01-2023 16:57:01 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:01 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:11 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:11 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:57:11 - _bot - DEBUG - decorator - ()
+07-01-2023 16:57:11 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:11 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:12 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:12 - _bot - DEBUG - get_updates - Getting updates: [327644409]
+07-01-2023 16:57:12 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 57, 14, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=107, supergroup_chat_created=False, text='/sum 4 5'), update_id=327644409),)
+07-01-2023 16:57:12 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:12 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:12 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 57, 14, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Никита', id=111181237, is_bot=False, language_code='ru', last_name='Худяков', username='nik_khudyakov'), group_chat_created=False, message_id=107, supergroup_chat_created=False, text='/sum 4 5'), update_id=327644409)
+07-01-2023 16:57:12 - bot_use - INFO - menu - 4.0 + 5.0 = 9.0
+07-01-2023 16:57:12 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:57:13 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:57:13 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Никита', id=111181237, last_name='Худяков', type=<ChatType.PRIVATE>, username='nik_khudyakov'), date=datetime.datetime(2023, 1, 7, 13, 57, 14, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=108, supergroup_chat_created=False, text='4.0 + 5.0 = 9.0')
+07-01-2023 16:57:13 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:57:22 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:22 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:57:22 - _bot - DEBUG - decorator - ()
+07-01-2023 16:57:22 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:22 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:28 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:28 - _bot - DEBUG - get_updates - Getting updates: [327644410]
+07-01-2023 16:57:28 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 29, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=109, supergroup_chat_created=False, text='/calc'), update_id=327644410),)
+07-01-2023 16:57:28 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:28 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:28 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 29, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=109, supergroup_chat_created=False, text='/calc'), update_id=327644410)
+07-01-2023 16:57:28 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:57:28 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:57:28 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 29, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=40, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=110, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=125, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=6, offset=146, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=169, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=200, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=5, offset=234, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=4, offset=265, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=110, supergroup_chat_created=False, text='Какое действие вы хотите выполнить?\n    /sum - сложение (введите команду и два числа через пробел. Например: "/sum 3 56"\n    /sub - вычитание\n    /multi - умножение\n    /div1 - деление с остатком\n    /div2 - целочисленное деление\n    /div3 - остаток от деления\n    /pow - возведение в степень')
+07-01-2023 16:57:28 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:57:38 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:38 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - ()
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:38 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:38 - _bot - DEBUG - get_updates - Getting updates: [327644411]
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 39, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=111, supergroup_chat_created=False, text='/sum 3.5 56'), update_id=327644411),)
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:38 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 39, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=111, supergroup_chat_created=False, text='/sum 3.5 56'), update_id=327644411)
+07-01-2023 16:57:38 - bot_use - INFO - menu - 3.5 + 56.0 = 59.5
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:57:38 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 39, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=112, supergroup_chat_created=False, text='3.5 + 56.0 = 59.5')
+07-01-2023 16:57:38 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:57:48 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:48 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:57:48 - _bot - DEBUG - decorator - ()
+07-01-2023 16:57:48 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:48 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:54 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:57:54 - _bot - DEBUG - get_updates - Getting updates: [327644412]
+07-01-2023 16:57:54 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 56, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=113, supergroup_chat_created=False, text='/sum 3.11 56'), update_id=327644412),)
+07-01-2023 16:57:54 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:57:54 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:57:54 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 56, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=4, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=113, supergroup_chat_created=False, text='/sum 3.11 56'), update_id=327644412)
+07-01-2023 16:57:54 - bot_use - INFO - menu - 3.11 + 56.0 = 59.11
+07-01-2023 16:57:54 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:57:55 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:57:55 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 57, 56, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=114, supergroup_chat_created=False, text='3.11 + 56.0 = 59.11')
+07-01-2023 16:57:55 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:58:04 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:58:04 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:58:04 - _bot - DEBUG - decorator - ()
+07-01-2023 16:58:04 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:58:04 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:58:14 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:58:14 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:58:14 - _bot - DEBUG - decorator - ()
+07-01-2023 16:58:14 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:58:14 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:58:25 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:58:25 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:58:25 - _bot - DEBUG - decorator - ()
+07-01-2023 16:58:25 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:58:25 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:58:35 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:58:35 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:58:35 - _bot - DEBUG - decorator - ()
+07-01-2023 16:58:35 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:58:35 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:58:45 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:58:45 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:58:45 - _bot - DEBUG - decorator - ()
+07-01-2023 16:58:45 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:58:45 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:58:55 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:58:55 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:58:55 - _bot - DEBUG - decorator - ()
+07-01-2023 16:58:55 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:58:55 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:59:05 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:59:05 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:59:05 - _bot - DEBUG - decorator - ()
+07-01-2023 16:59:05 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:59:05 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:59:15 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:59:15 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:59:15 - _bot - DEBUG - decorator - ()
+07-01-2023 16:59:15 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:59:15 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:59:21 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:59:21 - _bot - DEBUG - get_updates - Getting updates: [327644413]
+07-01-2023 16:59:21 - _bot - DEBUG - decorator - (Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 59, 22, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=115, supergroup_chat_created=False, text='/div1 77.8 6.11'), update_id=327644413),)
+07-01-2023 16:59:21 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:59:21 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:59:21 - _application - DEBUG - _update_fetcher - Processing update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 59, 22, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Алёна', id=1249306435, is_bot=False, language_code='en', username='cheesy_airu'), group_chat_created=False, message_id=115, supergroup_chat_created=False, text='/div1 77.8 6.11'), update_id=327644413)
+07-01-2023 16:59:21 - bot_use - INFO - menu - 77.8 / 6.11 = 12.733224222585923
+07-01-2023 16:59:21 - _bot - DEBUG - decorator - Entering: send_message
+07-01-2023 16:59:21 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/sendMessage "HTTP/1.1 200 OK"
+07-01-2023 16:59:21 - _bot - DEBUG - decorator - Message(channel_chat_created=False, chat=Chat(first_name='Алёна', id=1249306435, type=<ChatType.PRIVATE>, username='cheesy_airu'), date=datetime.datetime(2023, 1, 7, 13, 59, 22, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='calc_bot', id=5791856739, is_bot=True, username='airu_calc_bot'), group_chat_created=False, message_id=116, supergroup_chat_created=False, text='77.8 / 6.11 = 12.733224222585923')
+07-01-2023 16:59:21 - _bot - DEBUG - decorator - Exiting: send_message
+07-01-2023 16:59:31 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:59:31 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:59:31 - _bot - DEBUG - decorator - ()
+07-01-2023 16:59:31 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:59:31 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:59:41 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:59:41 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:59:41 - _bot - DEBUG - decorator - ()
+07-01-2023 16:59:41 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:59:41 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 16:59:51 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 16:59:51 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 16:59:51 - _bot - DEBUG - decorator - ()
+07-01-2023 16:59:51 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 16:59:51 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:00:01 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:00:01 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:00:01 - _bot - DEBUG - decorator - ()
+07-01-2023 17:00:01 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:00:01 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:00:11 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:00:11 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:00:11 - _bot - DEBUG - decorator - ()
+07-01-2023 17:00:11 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:00:11 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:00:21 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:00:21 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:00:21 - _bot - DEBUG - decorator - ()
+07-01-2023 17:00:21 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:00:21 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:00:31 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:00:31 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:00:31 - _bot - DEBUG - decorator - ()
+07-01-2023 17:00:31 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:00:31 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:00:41 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:00:41 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:00:41 - _bot - DEBUG - decorator - ()
+07-01-2023 17:00:41 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:00:41 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:00:51 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:00:51 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:00:51 - _bot - DEBUG - decorator - ()
+07-01-2023 17:00:51 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:00:51 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:01:01 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:01:01 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:01:01 - _bot - DEBUG - decorator - ()
+07-01-2023 17:01:01 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:01:01 - _bot - DEBUG - decorator - Entering: get_updates
+07-01-2023 17:01:11 - _client - DEBUG - _send_single_request - HTTP Request: POST https://api.telegram.org/bot5791856739:AAFaNPsCtWrGyESOEGshIAAG5g_fFUYmcss/getUpdates "HTTP/1.1 200 OK"
+07-01-2023 17:01:11 - _bot - DEBUG - get_updates - No new updates found.
+07-01-2023 17:01:11 - _bot - DEBUG - decorator - ()
+07-01-2023 17:01:11 - _bot - DEBUG - decorator - Exiting: get_updates
+07-01-2023 17:01:11 - _bot - DEBUG - decorator - Entering: get_updates
